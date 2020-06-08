@@ -5,14 +5,12 @@ import Footer from "../components/footer"
 
 import "./layout.css"
 
-export default function Layout({children}) {
-    return [
-        <div>
-            <Header />
-    
-            {children}
-    
-            <Footer />
-         </div>
-    ]
-}
+const Layout = ({ children }) => (
+    <div>
+      <Header />
+         { children }
+      <Footer />
+    </div>
+  )
+  
+  export default Layout
