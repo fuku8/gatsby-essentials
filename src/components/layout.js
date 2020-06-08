@@ -5,7 +5,7 @@ import Footer from "../components/footer"
 
 import "./layout.css"
 
-export default function Layout( {children} ) {
+export default function Layout({children}) {
     return [
         <div>
             <Header />
