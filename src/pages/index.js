@@ -3,10 +3,12 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from "../components/Layout"
+import Seo from "../components/seo"
 
 export default function Home({ data }) {
   return [
     <Layout>
+        <Seo />
         <section className="hero">
           <figure>
             <Img fluid={data.hero.childImageSharp.fluid} alt="" style={{ height: "100%"}} />

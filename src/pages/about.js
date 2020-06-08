@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from "../components/Layout"
+import Seo from "../components/seo"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCheckSquare, faUtensils } from "@fortawesome/free-solid-svg-icons"
@@ -13,6 +14,10 @@ config.autoAddCss = false
 export default function Home({ data }) {
   return [
     <Layout>
+      <Seo
+        pagetitle="ESSENTIALについて"
+        pagedesc="食べ物についての情報発信をしているサイトです。"
+      />
       <div>
         <div className="eyecatch">
           <figure>
