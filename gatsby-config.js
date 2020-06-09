@@ -11,6 +11,8 @@ module.exports = {
     description: ` おいしい食材と食事を探求するサイト`,
     lang: `ja`,
     siteUrl: `https://wizardly-kowalevski-c0c905.netlify.app`,
+    locale: `ja_JP`,
+    fbappid: `xxxxxxxxxxxxxxxxxxxxxxx`,
   },
   plugins: [
     'gatsby-transformer-sharp',
