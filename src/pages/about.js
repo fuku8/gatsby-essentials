@@ -11,12 +11,13 @@ import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
 
-export default function Home({ data }) {
+export default function Home({ data, location }) {
   return [
     <Layout>
       <Seo
         pagetitle="ESSENTIALについて"
         pagedesc="食べ物についての情報発信をしているサイトです。"
+        pagepath={location.pathname}
       />
       <div>
         <div className="eyecatch">
