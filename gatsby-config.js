@@ -12,7 +12,7 @@ module.exports = {
     lang: `ja`,
     siteUrl: `https://wizardly-kowalevski-c0c905.netlify.app`,
     locale: `ja_JP`,
-    fbappid: `xxxxxxxxxxxxxxxxxxxxxxx`,
+    fbappid: `268054901100716`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
